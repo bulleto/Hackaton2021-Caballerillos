@@ -7,10 +7,10 @@ function dani(e){
     e.preventDefault();
     console.log("Haz echo clic");
 
-    var usuario = document.querySelector("#usuario").value,
-    password = document.querySelector("#password").value;
+    var usuario = document.querySelector("usuario").value,
+    password = document.querySelector("password").value;
 
-    var datos = new FormData();
+    var datos = FormData();
     datos.append('usuario',usuario);
     datos.append('password',password);
 
