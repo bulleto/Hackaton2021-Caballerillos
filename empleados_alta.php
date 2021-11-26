@@ -3,7 +3,7 @@
 ?>
       <!--inicion de formulario-->
       <div class="protect_section layout_padding">
-         <h1 class="text-center pt-20">Restistrate Ahora!!</h1>
+         <h1 class="text-center pt-20">¡Registrate ahora!</h1>
          <div class = "row">
             <div class = "col-md-4 mx-auto">
                <form id="register_med">
