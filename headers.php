@@ -36,7 +36,7 @@
       <div class="header_section">
          <div class="container-fluid">
                <div class="main">
-                  <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+                  <div class="logo"><a href="index.php"><img src="images/logo.png"></a></div>
                   <div class="menu_text">
                      <ul>
                         <div id="myNav" class="overlay">
