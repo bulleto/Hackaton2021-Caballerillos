@@ -45,7 +45,6 @@
                               <a href="index.php">Home</a>
                               <a href="empleados_alta.php">Medicos</a>
                               <a href="registro.php">Pacientes</a>
-                              <a href="perfil.php">Perfil</a>
                            </div>
                         </div>
                         <span class="navbar-toggler-icon"></span>
