@@ -20,6 +20,26 @@ function dani(e){
     cracks.open('POST','partials/login_2.php',true);
     cracks.onload = function(){
         if(this.status===200){
+            var respuesta = JSON.parse(backend.responseText);
+                    console.log(respuesta);
+
+                    if (respuesta['response']==='dos') {
+                        Swal.fire(
+                            'Login correcto!',
+                            'Bienvenido :D',
+                            'Success'
+                        );
+                         
+                    }else{
+                        Swal.fire(
+                            'Login incorrecto!',
+                            'usuario incorrecto',
+                            'error'
+                        );
+                        setTimeout(function(){
+                            location.reload();
+                        }, 2000); 
+                    }
 
         }
     }
