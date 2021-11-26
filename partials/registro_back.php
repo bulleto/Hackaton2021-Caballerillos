@@ -34,7 +34,7 @@ try {
         if($inserta->affected_rows){
             $arreglo = array(
                 'response' => 'sinresultados',
-                'id_isertado' => $inserta->insert_id
+                'id_insertado' => base64_encode("encodeuserid{$inserta->insert_id}")
             );
 
         }

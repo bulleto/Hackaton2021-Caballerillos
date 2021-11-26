@@ -61,11 +61,11 @@ function enviar(e){
                         Swal.fire(
                             'Acción Exitosa!',
                             'Usuario Registrado',
-                            'success'
+                            'success',3000
                         );
                         setTimeout(function(){
-                            location.reload();
-                        }, 2000); 
+                            location.href="perfil.php?id="+respuesta['id_insertado'];
+                        }, 3000);
                     }
                 }else{
                     Swal.fire(
