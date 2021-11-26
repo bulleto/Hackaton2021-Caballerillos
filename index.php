@@ -7,19 +7,19 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="protect_taital">How to Protect Yourself</h1>
-                  <p class="protect_text">English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for</p>
+                  <h1 class="protect_taital">Life-Band</h1>
+                  <p class="protect_text">Pulsera informativa Digital de alta tecnológia</p>
                </div>
             </div>
             <div class="protect_section_2 layout_padding">
                <div class="row">
                   <div class="col-md-6">
-                     <h1 class="hands_text"><a href="#">Wash your <br>hands frequently</a></h1>
-                     <h1 class="hands_text_2"><a href="#">Maintain social <br>distancing</a></h1>
-                     <h1 class="hands_text"><a href="#">Avoid touching eyes,<br>nose and mouth</a></h1>
+                     <h1 class="hands_text"><a href="#">Traspote Facil <br>Por su Tamaño compacto</a></h1>
+                     <h1 class="hands_text_2"><a href="#">Ideal para <br>Emergencias</a></h1>
+                     <h1 class="hands_text"><a href="#">Gran durabilidad,<br>y confort</a></h1>
                   </div>
                   <div class="col-md-6">
-                     <div class="image_2"><img src="images/img-2.png"></div>
+                     <div class="image_2"><img src="images/pulsera.jpg"></div>
                   </div>
                </div>
             </div>
@@ -31,11 +31,11 @@
          <div class="container">
             <div class="row">
                <div class="col-md-6">
-                  <div class="about_img"><img src="images/img-1.png"></div>
+                  <div class="about_img"><img src="images/dis.png"></div>
                </div>
                <div class="col-md-6">
-                  <h1 class="about_taital">Coronavirus what it is?</span></h1>
-                  <p class="about_text">when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
+                  <h1 class="about_taital">Ideal Para Personas Con Dicapacidad Visual</span></h1>
+                  <p class="about_text">Esta pulsera ayuda a personas que tienen discapacidad visual parcial que tienen dificultad para diferenciar documentos o personas que carecen de habilidades lectoras. </p>
                   <div class="read_bt"><a href="#">Read More</a></div>
                </div>
             </div>
@@ -68,38 +68,35 @@
             <div id="main_slider" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
-                     <h1 class="news_taital">Latest News</h1>
-                     <p class="news_text">when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
+                     <h1 class="news_taital">Alta Seguridad</h1>
+                     <p class="news_text">Toda la informacion recopilada por la informacion es protegida por medio de encriptacion de la misma y un almacenaminto seguro.</p>
                      <div class="news_section_2 layout_padding">
                         <div class="box_main">
-                           <div class="image_1"><img src="images/news-img.png"></div>
-                           <h2 class="design_text">Coronavirus is Very dangerous</h2>
-                           <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look</p>
-                           <div class="read_btn"><a href="#">Read More</a></div>
+                           <div class="image_1"><img src="images/Ciberseguridad.png"></div>
+                           <h2 class="design_text">Tus Datos estan Seguros</h2>
+                           <p class="lorem_text">Dividimos tus datos en dos secciones la primera es laseccion de emergencia donde cualquier persona que escanee el qr vera informacion para ayudarte en casos de emergencia,la segunda seccion es dirigida a los medicoas qe al estar dados de alta en la aplicacion se loguearan para ver tu historial clinico.</p>
                         </div>
                      </div>
                   </div>
                   <div class="carousel-item">
-                    <h1 class="news_taital">Latest News</h1>
-                     <p class="news_text">when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
+                    <h1 class="news_taital">Alta Viabilidad</h1>
+                     <p class="news_text">Sguen datos del inegi en su senso realizado en 2020 en mexico exiten 38.7 millones de Adultos Mayores que usualmente sufren de enfermedades como diabetes e hipertension</p>
                      <div class="news_section_2 layout_padding">
                         <div class="box_main">
-                           <div class="image_1"><img src="images/news-img.png"></div>
-                           <h2 class="design_text">Coronavirus is Very dangerous</h2>
-                           <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look</p>
-                           <div class="read_btn"><a href="#">Read More</a></div>
+                           <div class="image_1"><img src="images/adultos_mayores_smartphone.jpg"></div>
+                           <h2 class="design_text">Rapida Adopcion de las nuevas Tecnologias</h2>
+                           <p class="lorem_text">De acuerdo a cifras del inegi en el mismo año el 40% de la cifra anterior cuentan con un celular inteligente e internet y esta tendencia sigue en aumento. </p>
                         </div>
                      </div>
                   </div>
                   <div class="carousel-item">
-                    <h1 class="news_taital">Latest News</h1>
-                     <p class="news_text">when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
+                    <h1 class="news_taital">Respuesta Rapida ante Emergencias</h1>
+                     <p class="news_text">La seccion rapida, te ayudara a que los medicos puedan medicarte de una manera rapida teniendo en cuenta tus padecimientos u alergias </p>
                      <div class="news_section_2 layout_padding">
                         <div class="box_main">
-                           <div class="image_1"><img src="images/news-img.png"></div>
-                           <h2 class="design_text">Coronavirus is Very dangerous</h2>
-                           <p class="lorem_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look</p>
-                           <div class="read_btn"><a href="#">Read More</a></div>
+                           <div class="image_1"><img src="images/aiudapp.png"></div>
+                           <h2 class="design_text">Adios Malas Prescripciones </h2>
+                           <p class="lorem_text">Evita malas medicaciones que pueden poner en riesgo tu salud y tu vida.</p>
                         </div>
                      </div>      
                   </div>
@@ -116,17 +113,6 @@
       </div>
       <!-- news section end -->
       <!-- update section start -->
-      <div class="update_section">
-         <div class="container">
-            <h1 class="update_taital">Get Every Update.... </h1>
-            <form action="/action_page.php">
-               <div class="form-group">
-                   <textarea class="update_mail" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-               </div>
-               <div class="subscribe_bt"><a href="#">Subscribe Now</a></div>
-            </form>
-         </div>
-      </div>
       <!-- update section end -->
       <!-- footer section start -->
       <div class="footer_section layout_padding">
@@ -134,20 +120,8 @@
             <div class="footer_section_2">
                <div class="row">
                   <div class="col-lg-3 col-sm-6">
-                     <h2 class="useful_text">Resources</h2>
-                     <div class="footer_menu">
-                        <ul>
-                           <li><a href="#">What we do</a></li>
-                           <li><a href="#">Media</a></li>
-                           <li><a href="#">Travel Advice</a></li>
-                           <li><a href="#">Protection</a></li>
-                           <li><a href="#">Care</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-6">
-                     <h2 class="useful_text">About</h2>
-                     <p class="footer_text">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various</p>
+                     <h2 class="useful_text">Nosotros</h2>
+                     <p class="footer_text"> Somos una empresa 100% Mexicana en busca de la innovacion tecnologica para todos sin importar su status social, reza ni condicion</p>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                      <h2 class="useful_text">Contact Us</h2>
@@ -159,17 +133,17 @@
                            </li>
                            <li>
                               <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>
-                              <span class="padding_15">Call +01 1234567890</span></a>
+                              <span class="padding_15">55-77-94-02-04</span></a>
                            </li>
                            <li>
                               <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>
-                              <span class="padding_15">demo@gmail.com</span></a>
+                              <span class="padding_15">contacto@lifeband.com</span></a>
                            </li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
-                     <h2 class="useful_text">countrys</h2>
+                     <h2 class="useful_text">Ubicaciones</h2>
                      <div class="map_image"><img src="images/map-bg.png"></div>
                   </div>
                </div>
