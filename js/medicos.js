@@ -20,7 +20,7 @@ function rockstars(e){
         )
     }else{
 
-        var datos = FormData();
+        var datos = new FormData();
         datos.append('usuario',usuario);
         datos.append('nombre',nombre);
         datos.append('password',password);
@@ -33,7 +33,33 @@ function rockstars(e){
 
         cracks.onload = function(){
             if(this.status===200){
+                var respuesta = JSON.parse(cracks.responseText);
+                console.log(respuesta);
 
+                if (respuesta['response']==='dos') {
+                    Swal.fire(
+                        'Usuario ya Existente!',
+                        'Intenta con otro usuario',
+                        'error'
+                    );
+                     
+                }else{
+                    Swal.fire(
+                        'Acción Exitosa!',
+                        'Usuario Registrado',
+                        'success'
+                    );
+                    setTimeout(function(){
+                        location.reload();
+                    }, 2000); 
+                }
+
+            }else{
+                Swal.fire(
+                    'Error de Conexion!',
+                    'Contactanos',
+                    'error'
+                );
             }
         }
         cracks.send(datos);
