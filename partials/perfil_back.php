@@ -20,7 +20,8 @@ if(isset($_GET['id'])) {
         $stmt->fetch();
 
 
-
+$stmt->close();
+    $conn->close();
 
     } catch (Exception $e) {
         //se produce un error;

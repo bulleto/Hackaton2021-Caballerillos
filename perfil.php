@@ -137,28 +137,54 @@ include_once 'partials/perfil_back.php';
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Usuario</label>
-                    <input type="text" class="form-control" id="usuario" aria-describedby="emailHelp" readonly value="<?$db_usuario?>">
+                    <?php
+                    echo "<textarea class=\"form-control\" placeholder=\"Leave a comment here\" id=\"historial\" style=\"height: 100px\" readonly>\n";
+                    echo htmlspecialchars($db_usuario)."\n";
+                    echo "</textarea>";
+                    ?>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" readonly value="<?echo $db_nombre?>">
+                    <?php
+                    echo "<textarea class=\"form-control\" placeholder=\"Leave a comment here\" id=\"historial\" style=\"height: 100px\" readonly>\n";
+                    echo htmlspecialchars($db_nombre)."\n";
+                    echo "</textarea>";
+                    ?>
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Apellidos</label>
-                    <input type="text" class="form-control" id="apellidos" aria-describedby="emailHelp" readonly value="<?echo $db_apellidos?>">
+                    <?php
+                    echo "<textarea class=\"form-control\" placeholder=\"Leave a comment here\" id=\"historial\" style=\"height: 100px\" readonly>\n";
+                    echo htmlspecialchars($db_apellidos)."\n";
+                    echo "</textarea>";
+                    ?>
                 </div>
                 <div class="mb-3">
                     <label for="floatingTextarea2">Informacion de Emergencia</label>
-                    <textarea class="form-control" placeholder="Leave a comment here" id="emergencia" style="height: 100px" readonly value="<?echo $db_urgencias?>"></textarea>
+                    <?php
+                    echo "<textarea class=\"form-control\" placeholder=\"Leave a comment here\" id=\"historial\" style=\"height: 100px\" readonly>\n";
+                    echo htmlspecialchars($db_urgencias)."\n";
+                    echo "</textarea>";
+                    ?>
                 </div>
                 <div class="mb-3">
                     <label for="floatingTextarea2">Historial Clinico</label>
-                    <textarea class="form-control" placeholder="Leave a comment here" id="historial" style="height: 100px" readonly value="<?$db_historial  ?>"></textarea>
+                    <?php
+                    echo "<textarea class=\"form-control\" placeholder=\"Leave a comment here\" id=\"historial\" style=\"height: 100px\" readonly>\n";
+                    echo htmlspecialchars($db_historial)."\n";
+                    echo "</textarea>";
+                    ?>
+                </div>
+                <div class="mb-3">
+                    <label for="floatingTextarea2">Identificador QR</label>
+                    <?php
+                    $url=$_SERVER['PHP_SELF'];
+                    echo '<img class="img-thumbnail" src="https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl='.$_SERVER['REQUEST_URI'].'"/>';
+                    ?>
                 </div>
             </form>
         </div>
-    </div><?$stmt->close();
-    $conn->close(); ?>
+    </div>
 </div>
 
 <!-- copyright section start -->
@@ -213,6 +239,6 @@ include_once 'partials/perfil_back.php';
 <!--mis scripts-->
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="js/registro.js" ></script>
+<script src="js/perfil.js" ></script>
 </body>
 </html>
