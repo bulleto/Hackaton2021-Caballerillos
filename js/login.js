@@ -7,20 +7,26 @@ function dani(e){
     e.preventDefault();
     console.log("Haz echo clic");
 
-    var usuario = document.querySelector("usuario").value,
-    password = document.querySelector("password").value;
+    var usuario = document.querySelector("#usuario").value,
+    password = document.querySelector("#password").value;
 
-    var datos = FormData();
+    //console.log(usuario + password);
+
+
+    var datos =  new FormData();
     datos.append('usuario',usuario);
     datos.append('password',password);
 
+
     //objeto ajax
     var cracks = new XMLHttpRequest();
+
+    console.log(cracks);
     
     cracks.open('POST','partials/login_2.php',true);
     cracks.onload = function(){
         if(this.status===200){
-            var respuesta = JSON.parse(backend.responseText);
+            var respuesta = JSON.parse(cracks.responseText);
                     console.log(respuesta);
 
                     if (respuesta['response']==='dos') {
@@ -34,11 +40,9 @@ function dani(e){
                         Swal.fire(
                             'Login incorrecto!',
                             'usuario incorrecto',
-                            'error'
+                            'error',
                         );
-                        setTimeout(function(){
-                            location.reload();
-                        }, 2000); 
+                        
                     }
 
         }

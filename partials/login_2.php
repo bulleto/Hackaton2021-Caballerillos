@@ -1,18 +1,18 @@
 <?php
 
-$usuario=$_POST['usuario'];
-$password=$_POST['password'];
+$usuario = $_POST['usuario'];
+$password = $_POST['password'];
 
 
 include 'conexion.php';
 try {
     //se realiza la consulta
-    $stmt = $conn->prepare("SELECT id_emp,usuario,nombrec FROM empleados WHERE usuario = '$usuario'and pass='$password'");
+    $stmt = $conn->prepare("SELECT id_emp,usuario,nombrec,tipo FROM empleados WHERE usuario = '$usuario'AND pwd= MD5('$password')");
     $stmt->execute();
 
     //loguear el usuario
 
-    $stmt->bind_result($db_id,$db_usuario,$db_nombre);
+    $stmt->bind_result($db_id,$db_usuario,$db_nombre,$db_tipo);
     $stmt->fetch();
     if ($db_usuario) {
         $arreglo = array(
@@ -20,6 +20,15 @@ try {
             'usuario'=>$db_usuario,
             'nombre'=>$db_nombre
         );
+
+        //creamos avariables de session
+
+        @session_start();
+
+        $_SESSION["id_emp"]=$db_id;
+        $_SESSION["tipo"]=$db_tipo;
+
+
     }else{
         $arreglo = array(
             'response'=>'valor',
